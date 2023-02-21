@@ -48,14 +48,14 @@ body {
 .jumbotron {
     display: flex;
     gap: 24px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 144px;
     margin-top: 72px;
 }
 
 .jumbotron-content {
-    flex: 0 1 50%;
+    flex: 0 1 400px;
 }
 
 .jumbo-header {
@@ -68,6 +68,7 @@ body {
 
 .jumbo-text {
     margin: 8px 0 8px 0;
+    max-width: 400px;
 }
 
 .jumbo-sign-up {
