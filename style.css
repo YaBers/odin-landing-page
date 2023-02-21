@@ -48,9 +48,10 @@ body {
 .jumbotron {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 20%;
-    margin-top: 10%
+    margin-bottom: 144px;
+    margin-top: 72px;
 }
 
 .jumbotron-content {
@@ -87,6 +88,8 @@ body {
     height: auto;
     width: 50px;
     border-radius: 8px;
+    max-height: 400px;
+    max-width: 692px;
 }
 
 
