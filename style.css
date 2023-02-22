@@ -15,10 +15,14 @@ body {
 }
 
 .content-container,
-.quote-section,
-.call-container {
+.quote-section {
     height: 420px;
 }
+
+.call-container {
+    height: 360px;
+}
+
 .quote-section {
     background-color: #E5E7EB;
 }
@@ -80,7 +84,8 @@ body {
     max-width: 400px;
 }
 
-.jumbo-sign-up {
+.jumbo-sign-up,
+.call-sign-up {
     padding: 6px 24px;
     font-size: 18px;
     color: #F9FAF8;
@@ -93,7 +98,8 @@ body {
 }
 
 .jumbo-sign-up,
-.call-content {
+.call-content,
+.call-sign-up {
     background-color: #3882F6;
     border-radius: 8px
 }
@@ -120,8 +126,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 48px;
     color: #E5E7EB;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .content-container {
@@ -179,4 +187,42 @@ body {
 .quote-credit {
     align-self: flex-end;
     font-size: 24px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-content {
+    display: flex;
+    padding: 32px 16px;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    flex: 1 1 auto;
+}
+
+.call-sign-up {
+    border: 2px #E5E7EB solid;
+    font-weight: bolder;
+}
+
+.call-sign-up:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
+
+.call-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.call-text {
+    color: #E5E7EB;
+    margin-top: 4px;
 }
